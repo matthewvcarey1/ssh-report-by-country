@@ -45,7 +45,7 @@ It assumes the location of the first script is the user's bin folder
 
 I leave it to you to write a desktop file to call this second script with a mouse click.
 
-![ScreenShot](/work/stuff/gitrepo/ssh-report-by-country/ScreenShot.png)
+![ScreenShot](ScreenShot.png)
 
 PS. If you do decide to have an sshd port open to the internet be sure that you limit the users who can log in and make sure the root user is not allowed. Disallow password logins and restrict login to keys only, and make those keys are protected by pass phrases, regularly replace your keys and delete old ones. Run fail2ban on your box and set your firewall to suppress spoofed ip addresses as far as possible. Also make sure that you keep all our software up to date!
 
