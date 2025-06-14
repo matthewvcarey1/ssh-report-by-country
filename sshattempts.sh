@@ -4,7 +4,7 @@ enable -f /usr/lib/bash/csv csv
 
 declare -A countryArray
 
-countrycodefile="countrycodes.csv"
+countrycodefile="/tmp/countrycodes.csv"
 
 
 
