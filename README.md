@@ -43,6 +43,10 @@ It assumes the location of the first script is the user's bin folder
 
 `/home/${USER}/bin/sshattempts.sh`
 
+Both scripts need be marked as executable
+
+`chmod a+x ~/bin/sshattempts.sh~` 
+
 I leave it to you to write a desktop file to call this second script with a mouse click.
 
 ![ScreenShot](ScreenShot.png)
